@@ -1,12 +1,84 @@
 {
     "quotes": [
         {
+            "author": "Jawaharlal Nehru",
+            "quote": "At the dawn of history, India started on her unending quest, and trackless centuries are filled with her striving and the grandeur of her successes and her failures."
+        },
+        {
             "author": "Mahatma Gandhi",
-            "text": "Be the change that you wish to see in the world."
+            "quote": "The best way to find yourself is to lose yourself in the service of others."
+        },
+        {
+            "author": "Bal Gangadhar Tilak",
+            "quote": "Swaraj is my birthright, and I shall have it."
+        },
+        {
+            "author": "Sarojini Naidu",
+            "quote": "A country's greatness lies in its undying ideals of love and sacrifice that inspire the mothers of the race."
+        },
+        {
+            "author": "Subhas Chandra Bose",
+            "quote": "Freedom is not given, it is taken."
+        },
+        {
+            "author": "Bhagat Singh",
+            "quote": "The sanctity of law can be maintained only so long as it is the expression of the will of the people."
+        },
+        {
+            "author": "B. R. Ambedkar",
+            "quote": "We are Indians, firstly and lastly."
+        },
+        {
+            "author": "Dr. Rajendra Prasad",
+            "quote": "In attaining our ideals, our means should be as pure as the end."
         },
         {
             "author": "Jawaharlal Nehru",
-            "text": "At the dawn of history, India started on her unending quest, and trackless centuries are filled with her striving and the grandeur of her successes and her failures."
+            "quote": "A moment comes, which comes but rarely in history, when we step out from the old to the new, when an age ends, and when the soul of a nation, long suppressed, finds utterance."
+        },
+        {
+            "author": "Chandra Shekhar Azad",
+            "quote": "If yet your blood does not rage, then it is water that flows in your veins."
+        },
+        {
+            "author": "Subhas Chandra Bose",
+            "quote": "Forget not that the grossest crime is to compromise with injustice and wrong."
+        },
+        {
+            "author": "Bal Gangadhar Tilak",
+            "quote": "Life is all about a card game. Choosing the right cards is not in our hand, but playing well with the cards in hand determines our success."
+        },
+        {
+            "author": "Subhas Chandra Bose",
+            "quote": "No real change in history has ever been achieved by discussions."
+        },
+        {
+            "author": "Bhagat Singh",
+            "quote": "They may kill me, but they cannot kill my ideas. They can crush my body, but they will not be able to crush my spirit."
+        },
+        {
+            "author": "Vallabhbhai Patel",
+            "quote": "Faith is of no evil in absence of strength. Faith and strength, both are essential to accomplish any great work."
+        },
+        {
+            "author": "Mahatma Gandhi",
+            "quote": "You must be the change you wish to see in the world."
+        },
+        {
+            "author": "Dr. A. P. J. Abdul Kalam",
+            "quote": "In this world, fear has no place. Only strength respects strength."
+        },
+        {
+            "author": "Swami Vivekananda",
+            "quote": "Let new India arise out of peasants’ cottage, grasping the plough, out of huts, cobbler and sweeper."
+        },
+        {
+            "author": "Ram Prasad Bismil",
+            "quote": "Even if I have to face death a thousand times for the sake of my Motherland, I shall not be sorry. Oh Lord! Grant me a hundred births in Bharat. But grant me this, too, that each time I may give up my life in the service of the Motherland."
+        },
+        {
+            "author": "Jawaharlal Nehru",
+            "quote": "We end today a period of ill fortune, and India discovers herself again."
         }
     ]
 }
