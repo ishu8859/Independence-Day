@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Independence Day</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+    <!--link rel="stylesheet" href="https://unpkg.com/aos/dist/aos.css"-->
+</head>
+<body>
+
+    <header>
+        <h1>India's Independence Day</h1>
+        <!-- Theme toggle button here -->
+        <!--button id="theme-toggle">☀</!--button-->
+    </header>
+
+    <section id="intro" data-aos="fade-up">
+        <h2>Introduction</h2>
+        <p>
+            India gained its Independence on August 15, 1947, ending nearly 200 years of British rule.
+            This day is celebrated with great enthusiasm across the country.
+        </p>
+    </section>
+
+    <section id="timeline" data-aos="fade-up">
+        <h2>Timeline of Events</h2>
+        <ul>
+            <li>1857: First War of Independence</li>
+            <li>1915: Mahatma Gandhi returns to India</li>
+            <li>1942: Quit India Movement</li>
+            <li>1947: India gains Independence</li>
+        </ul>
+    </section>
+
+    <section id="audios" data-aos="fade-up">
+        <h2>National Anthem and Song</h2>
+        <audio controls>
+            <source src="assets/audios/NationalAnthem.mp3" type="audio/mp3">
+            Your browser does not support the audio element. Please upgrade to a modern browser.
+        </audio>
+        <audio controls>
+            <source src="assets/audios/NationalSong.mp3" type="audio/mp3">
+            Your browser does not support the audio element. Please upgrade to a modern browser.
+        </audio>
+    </section>
+
+    <section id="gallery" data-aos="fade-up">
+        <h2>Gallery</h2>
+        <img src="assets/images/NationalAnimal.jpg" alt="National Animal">
+        <img src="assets/images/NationalBird.jpg" alt="National Bird">
+        <img src="assets/images/NationalFlag.jpg" alt="National Flag">
+        <img src="assets/images/NationalFlower.jpg" alt="National Flower">
+    </section>
+
+    <section id="videos" data-aos="fade-up">
+        <h2>Videos</h2>
+        <video controls>
+            <source src="assets/videos/parade.mp4" type="video/mp4">
+            Your browser does not support the video tag. Please upgrade to a modern browser.
+        </video>
+       <!-- <div class="video-container">
+            <iframe width="560" height="315" src="assets/videos/parade.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/6tL-e35164U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>-->
+    </section>
+
+    <section id="quiz" data-aos="fade-up">
+        <h2>Quiz</h2>
+        <div id="quiz-container">
+            <!-- Quiz content will be added here by Java Script-->
+        </div>
+    </section>
+
+    <section id="countdown" data-aos="fade-up">
+        <h2>Countdown to Independence Day</h2>
+        <div id="timer"></div>
+    </section>
+
+    <section id="quotes" data-aos="fade-up">
+        <h2>Historical Quotes</h2>
+        <div id="quotes-container">
+            <!-- Quotes will be added here by Java Script-->
+        </div>
+    </section>
+
+    <section id="map" data-aos="fade-up">
+        <h2>Interactive Map</h2>
+        <div id="mapid" style="height: 400px;"></div>
+    </section>
+
+    <section id="comments" data-aos="fade-up">
+        <h2>Share Your Thoughts</h2>
+        <form id="comment-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment" rows="4" placeholder="Leave a comment..." required></textarea>
+            <button type="submit">Submit</button>
+            <div id="comment-message"></div>
+        </form>
+        
+        <div id="comments-list">
+            <!-- User comments will be displayed here-->
+        </div>
+
+    </section>
+
+    <footer>
+        <h3><b>Share This Page</b></h3>
+        <div id="share-buttons">
+            <!-- Social media share buttons will be added here-->
+            <a href="#" id="facebook-share">Facebook</a>
+            <a href="#" id="twitter-share">Twitter</a>
+            <a href="#" id="whatsapp-share">WhatsApp</a>
+        </div>
+    </footer>
+    
+    <script src="scripts/script.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/aos/dist/aos.js"></script>
+
+</body>
+</html>

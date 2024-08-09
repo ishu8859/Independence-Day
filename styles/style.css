@@ -1,0 +1,191 @@
+/* Define light theme */
+:root {
+    --background-color: #f0f0f0;
+    --header-bg-color: #ff9933;
+    --section-bg-color: white;
+    --text-color: #333;
+}
+
+/*#theme-toggle {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 24px;
+    line-height: 1;
+}*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+header {
+    background-color: var(--header-bg-color);
+    color: white;
+    padding: 1.5em;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .2);
+}
+
+section {
+    padding: 2em;
+    margin: 1em auto;
+    max-width: 800px;
+    background-color: var(--section-bg-color);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+h2 {
+    color: var(--header-bg-color);
+    border-bottom: 2px solid var(--header-bg-color);
+    padding-bottom: .5em;
+    margin-bottom: 1em;
+}
+
+h3 {
+    color: white;
+    border-bottom: 2px solid var(--header-bg-color);
+    padding-bottom: .5em;
+    margin-bottom: 1em;
+}
+
+audio {
+    display: block;
+    width: 100%;
+    margin-top: 1em;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-top: 1em;
+    border-radius: 12px;
+    transition: transform .3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+video {
+    width: 100%;
+    height: auto;
+    margin-top: 1em;
+    border-radius: 12px;
+}
+
+#quiz-container {
+    margin-top: 1em;
+}
+
+.question {
+    font-weight: bold;
+    margin-bottom: .5em;
+    font-size: 1.1em;
+}
+
+.answers {
+    margin-bottom: 1em;
+}
+
+label {
+    display: block;
+    margin-bottom: .5em;
+    cursor: pointer;
+    transition: background-color .2s ease;
+}
+
+label:hover {
+    background-color: #f0f0f0;
+}
+
+input[type="radio"] {
+    margin-right: .5em;
+}
+
+#countdown {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+
+#quotes-container {
+    margin-top: 1em;
+}
+
+textarea, input {
+    width: 100%;
+    padding: .5em;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 1em;
+}
+
+button {
+    background-color: var(--header-bg-color);
+    color: white;
+    border: none;
+    padding: .5em 1em;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #e68a00;
+}
+
+#comments-list {
+    margin-top: 1em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: var(--header-bg-color);
+    color: white;
+}
+
+footer a {
+    color: white;
+    margin: 0 .5em;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    section {
+        margin: 1em;
+        padding: 1em;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+}
+
+@keyframes fadeIn {
+    from {opacity: 0; }
+    to {opacity: 1; }
+}
